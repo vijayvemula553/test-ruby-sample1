@@ -16,4 +16,4 @@ containers:
     artifacts:
       type: zip
       files:
-        - 'target/HelloWorld.rb'
+        - 'test-ruby-sample/HelloWorld.rb'
