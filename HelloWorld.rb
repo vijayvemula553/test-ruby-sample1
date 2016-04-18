@@ -1,7 +1,7 @@
-puts 'Hello, world!'
+class HelloWorld
+	def say_hello()
+		return 'Hello, world!'
+	end
+end
 
-out_file = File.new("outfile.txt", "w")
-#...
-out_file.puts("write your stuff here")
-#...
-out_file.close
+
