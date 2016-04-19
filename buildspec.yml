@@ -5,7 +5,7 @@ containers:
     phases:
       pre_build:
         commands:
-          - echo 'Inside CodeBuild Source Directory'
+          - echo 'Inside Ruby Source Directory'
           - gem install rspec
       during_build:
         commands:
