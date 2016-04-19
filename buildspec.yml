@@ -6,13 +6,13 @@ containers:
       pre_build:
         commands:
           - echo 'Inside CodeBuild Source Directory'
+          - rspec HelloWorld_spec.rb
       during_build:
         commands:
           - echo 'Compiling the Ruby Code'
       post_build:
         commands:
           - echo "Would deploy here"
-          - rspec HelloWorld_spec.rb
     artifacts:
       type: zip
       files:
