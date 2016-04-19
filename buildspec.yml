@@ -6,6 +6,7 @@ containers:
       pre_build:
         commands:
           - echo 'Inside CodeBuild Source Directory'
+          - gem install rspec
       during_build:
         commands:
           - echo 'Compiling the Ruby Code'
