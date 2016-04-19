@@ -9,6 +9,7 @@ containers:
       during_build:
         commands:
           - echo 'Compiling the Ruby Code'
+          - rspec HelloWorld_spec.rb
       post_build:
         commands:
           - echo "Would deploy here"
